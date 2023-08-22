@@ -29,19 +29,15 @@ body {
   background-image: #5a695d;
 }
 
-img {
-    width: 100%;
-    height: auto;
-    /* object-fit: cover; */
-  }
 
-  h1 {
+
+h1 {
     font-family: 'Corporative Alt', sans-serif;
-  }
+}
 
-  h2 {
+h2 {
     font-family: 'Clear Sans Medium', sans-serif;
-  }
+}
 
 header {
     background-color: #5a695d;
@@ -53,6 +49,15 @@ header {
 nav ul {
     list-style: none;
     background-color: #FFF8E9;
+}
+
+img {
+    width: 100%;
+    /* height: auto; */
+    margin: auto;
+    padding: 0;
+    object-fit: cover;
+    /* border: 0.2rem solid rgb(224, 12, 207); */
 }
 
 nav ul li {
@@ -95,7 +100,8 @@ footer {
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
     text-align: center;
-    padding: 100px 0;
+    /* padding: 100px 0; */
+    /* border: 0.2rem solid rgb(224, 12, 207); */
 }
 
 .banner-content {
