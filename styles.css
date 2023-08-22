@@ -98,7 +98,7 @@ footer {
     background-size: cover;
     background-position: center;
     background-color: rgba(0, 0, 0, 0.5);
-    color: #fff;
+    color: #FFF8E9;
     text-align: center;
     /* padding: 100px 0; */
     /* border: 0.2rem solid rgb(224, 12, 207); */
@@ -112,6 +112,36 @@ footer {
 
 .banner h1 {
     margin-bottom: 20px;
+}
+
+.voyage-card img {
+    width: 50%;
+    height: 50%;
+    max-height: 600px; /* Ajustez cette valeur en fonction de vos besoins */
+    margin: auto;
+    padding: 0;
+    object-fit: cover;
+    /* border: 1px solid #ddd; */
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 20px; /* Espacement entre les cartes */
+    /* ... (autres styles) ... */
+}
+
+/* Ajoutez un style pour ne pas ajouter de bordure en bas à la dernière carte */
+.voyage-card:last-child {
+    border: none;
+}
+.voyage-card {
+    border: 1px solid #FFF8E9;
+    padding: 1rem;
+    text-align: center;
+    /* ... (autres styles) ... */
+}
+
+/* Ajoutez un style pour séparer les cartes par une ligne */
+.voyage-card + .voyage-card {
+    margin-top: 20px; /* Espacement entre les cartes */
 }
 
 /* Réglages de responsive */
