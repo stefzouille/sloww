@@ -131,9 +131,9 @@ footer {
 }
 
 .voyage-card img {
-    width: 50%;
-    height: 50%;
-    max-height: 600px; /* Ajustez cette valeur en fonction de vos besoins */
+    width: 30%;
+    height: 30%;
+    max-height: 300px; /* Ajustez cette valeur en fonction de vos besoins */
     margin: auto;
     padding: 0;
     object-fit: cover;
