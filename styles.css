@@ -13,17 +13,31 @@ clear sans bold */
 body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
+    
 }
 
 /* Styles généraux */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    /* font-family: Arial, sans-serif;
+    line-height: 1.6; */
+    font-family: Verdana, 'Arial Black', Arial, Verdana, sans-serif;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(166, 166, 169);
+  /* background-image: url(../img/moncockpit.JPG); */
+
+  background-image: #5a695d;
 }
 
+img {
+    width: 100%;
+    height: auto;
+    /* object-fit: cover; */
+  }
+
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #5a695d;
+    color: #FFF8E9;
     text-align: center;
     padding: 1rem;
 }
@@ -47,7 +61,7 @@ main {
 }
 
 .articles {
-    display: grid;
+    display: inline;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
 }
