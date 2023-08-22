@@ -107,6 +107,23 @@ main {
     padding: 1rem;
 }
 
+.qui-sommes-nous {
+    text-align: center;
+    padding: 40px;
+    background-color: #5a695d; /* Couleur de fond */
+    color: #FFF8E9
+    ; /* Couleur du texte */
+}
+
+.qui-sommes-nous h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.qui-sommes-nous p {
+    font-size: 20px;
+    line-height: 1.5;
+}
 .articles {
     display: inline;
     grid-template-columns: repeat(2, 1fr);
