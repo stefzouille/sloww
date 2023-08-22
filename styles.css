@@ -20,9 +20,9 @@ body, h1, h2, h3, p, ul, li {
 body {
     /* font-family: Arial, sans-serif;
     line-height: 1.6; */
-    font-family: Verdana, 'Arial Black', Arial, Verdana, sans-serif;
-  margin: 5px;
-  padding: 5px;
+    font-family: clear Sans, 'Arial Black', Arial, Verdana, sans-serif;
+  /* margin: 5px;
+  padding: 5px; */
   background-color: rgb(166, 166, 169);
   /* background-image: url(../img/moncockpit.JPG); */
 
@@ -33,6 +33,14 @@ img {
     width: 100%;
     height: auto;
     /* object-fit: cover; */
+  }
+
+  h1 {
+    font-family: 'Corporative Alt', sans-serif;
+  }
+
+  h2 {
+    font-family: 'Clear Sans Medium', sans-serif;
   }
 
 header {
@@ -58,7 +66,7 @@ nav ul li a {
 }
 
 main {
-    padding: 0.2rem;
+    padding: 1rem;
 }
 
 .articles {
