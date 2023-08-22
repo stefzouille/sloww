@@ -1,4 +1,13 @@
 /* Réinitialisation des marges et des paddings */
+/* couleurs et police
+#FFF8E9 blanc cassé
+#5a695d marron foncé
+#849c84 marron clair
+police
+CORPORATIVE
+clear Sans regular
+clear sans bold */
+
 body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
