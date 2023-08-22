@@ -1,3 +1,5 @@
+/* styles.css */
+
 /* Réinitialisation des marges et des paddings */
 /* couleurs et police
 #FFF8E9 blanc cassé
@@ -61,3 +63,42 @@ footer {
     text-align: center;
     padding: 1rem;
 }
+
+/* Styles spécifiques à la bannière */
+.banner {
+    width: 100%;
+    max-width: 10000px;
+    height: 20%;
+    /* display: block; */
+    /* margin: 0 0;  */
+}
+
+
+/* Styles pour les écrans plus petits (mobiles) */
+@media (max-width: 768px) {
+    header {
+        padding: 20px; /* Réduire l'espacement dans l'en-tête pour les écrans plus petits */
+    }
+
+    .banner h1 {
+        font-size: 24px; /* Réduire la taille de la police pour les écrans plus petits */
+    }
+
+    .articles {
+        grid-template-columns: repeat(1, 1fr); /* Une colonne pour les écrans plus petits */
+    }
+
+    article {
+        padding: 1rem; /* Réduire l'espacement des articles pour les écrans plus petits */
+    }
+
+    footer {
+        padding: 20px; /* Réduire l'espacement dans le pied de page pour les écrans plus petits */
+    }
+}
+
+
+
+
+
+
