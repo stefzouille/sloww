@@ -75,16 +75,33 @@ nav ul li {
     text-decoration: dotted;
   
 }
-/* Ajoutez ce style pour mettre en gras le lien "Accueil" dans la barre de navigation */
-/* nav ul li:first-child a {
-    font-weight: bold;
-} */
+
 
 nav ul li a {
     text-decoration: none;
     color: #333;
     
 }
+
+.reseaux-sociaux {
+    text-align: center;
+}
+
+.reseau {
+    display: inline-block;
+    margin: 10px;
+}
+
+.reseau a {
+    display: block;
+    text-decoration: none;
+}
+
+.reseau img {
+    width: 50px; /* Ajustez la taille des logos selon vos besoins */
+    height: 50px;
+}
+
 
 main {
     padding: 1rem;
@@ -174,6 +191,19 @@ footer {
         font-size: 24px;
     }
 }
+
+.images-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.images-bottom img {
+    width: 200px; /* Ajustez la largeur selon vos besoins */
+    height: 200px; /* Hauteur fixe */
+    object-fit: cover; /* Ajuste l'image dans le conteneur */
+    margin: 5px; /* Ajoutez de l'espace entre les images */
+}
+
 
 
 /* Styles pour les écrans plus petits (mobiles) */
