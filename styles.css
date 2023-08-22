@@ -134,6 +134,22 @@ footer {
         padding: 1rem; /* Réduire l'espacement des articles pour les écrans plus petits */
     }
 
+    p {
+        font-size: 16px; /* Ajustez la taille de la police des paragraphes pour les écrans plus petits */
+    }
+
+    h1 {
+        font-size: 28px; /* Ajustez la taille de la police des titres h1 pour les écrans plus petits */
+    }
+
+    h2 {
+        font-size: 24px; /* Ajustez la taille de la police des titres h2 pour les écrans plus petits */
+    }
+
+    h3 {
+        font-size: 20px; /* Ajustez la taille de la police des titres h3 pour les écrans plus petits */
+    }
+
     footer {
         padding: 20px; /* Réduire l'espacement dans le pied de page pour les écrans plus petits */
     }
