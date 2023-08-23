@@ -32,7 +32,7 @@ body {
 
 
 h1 {
-    font-family: 'Corporative Alt', sans-serif;
+    font-family: 'Corporative', sans-serif;
 }
 
 h2 {
@@ -160,6 +160,39 @@ footer {
     margin: 0 auto;
     padding: 0 20px;
 }
+
+.banner1 {
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #FFF8E9;
+    text-align: center;
+    /* padding: 100px 0; */
+    /* border: 0.2rem solid #FFF8E9; */
+    width: 100;
+    max-height: 300px;
+}
+
+.banner3 {
+    /* background-size: cover;
+    background-position: center; */
+    color: #FFF8E9;
+    /* text-align: center; */
+    /* margin: auto; */
+    /* padding: 10px 0; */
+    /* border: 0.2rem solid #FFF8E9; */
+    display: block;
+    margin: 0 auto;
+    width: 20%;
+    height: auto;
+}
+
+.banner1-content {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
 
 .banner h1 {
     margin-bottom: 20px;
