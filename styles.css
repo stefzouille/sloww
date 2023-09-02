@@ -126,13 +126,12 @@ main {
     line-height: 1.5;
 }
 
-/* Ajoutez ces styles pour centrer la vidéo */
 .video-container {
     position: relative;
     padding-bottom: 56.25%; /* Rapport hauteur/largeur de 16:9 pour les vidéos YouTube */
-    padding-top: 0;
-    height: 0;
-    overflow: hidden;
+    margin: 0 auto; /* Centre la vidéo horizontalement */
+    max-width: 100%; /* Empêche la vidéo de dépasser la largeur de son conteneur parent */
+    width: 100%; /* Ajuste la largeur de la vidéo à 100% du conteneur parent */
 }
 
 .video-container iframe {
