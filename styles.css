@@ -132,7 +132,8 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: auto; /* Ajustez la hauteur selon vos besoins */
+    /* Supprimez la propriété height ou réglez-la sur auto */
+    /* height: 30vh; */
 }
 
 .video-container iframe {
