@@ -125,6 +125,22 @@ main {
     font-size: 20px;
     line-height: 1.5;
 }
+
+/* Styles pour centrer l'iframe */
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 50vh; /* Ajustez la hauteur selon vos besoins */
+}
+
+.video-container iframe {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 .articles {
     display: inline;
     grid-template-columns: repeat(2, 1fr);
