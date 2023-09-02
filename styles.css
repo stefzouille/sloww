@@ -126,18 +126,18 @@ main {
     line-height: 1.5;
 }
 
-/* Centrer l'iframe horizontalement et verticalement */
+/* Ajoutez ces styles pour centrer la vidéo */
 .video-container {
     text-align: center;
-    display: inline-block;
-    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh; /* Ajustez la hauteur selon vos besoins */
 }
 
 .video-container iframe {
     max-width: 100%;
     max-height: 100%;
-    vertical-align: middle;
 }
 
 .articles {
