@@ -128,17 +128,17 @@ main {
 
 /* Styles pour centrer l'iframe */
 .video-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* margin: 0;
-    padding: 0; */
-    height: 50vh; /* Ajustez la hauteur selon vos besoins */
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* Rapport d'aspect 16:9 (315/560) */
 }
 
 .video-container iframe {
-    max-width: 100%;
-    max-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .articles {
