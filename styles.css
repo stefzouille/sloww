@@ -132,7 +132,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Ajustez la hauteur selon vos besoins */
+    height: 50vh; /* Ajustez la hauteur selon vos besoins */
 }
 
 .video-container iframe {
