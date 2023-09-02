@@ -131,6 +131,7 @@ main {
     padding-bottom: 56.25%; /* Rapport hauteur/largeur de 16:9 pour les vidéos YouTube */
     margin: 0 auto; /* Centre la vidéo horizontalement */
     max-width: 100%; /* Empêche la vidéo de dépasser la largeur de son conteneur parent */
+    width: 100%; /* Ajustez la largeur de la vidéo */
 }
 
 .video-container iframe {
