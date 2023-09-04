@@ -167,7 +167,7 @@ main {
     max-height: 100%;
 } */
 
-.user-videos {
+/* .user-videos {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -178,7 +178,34 @@ main {
 .video {
     margin-bottom: 20px; /* Espace entre chaque vidéo */
     
+ */
+
+ .user-videos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
+
+.video {
+    margin-bottom: 20px; /* Espace entre chaque vidéo */
+}
+
+/* Styles pour rendre les vidéos responsive */
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Ratio 16:9 pour une vidéo */
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 
 .articles {
     display: inline;
@@ -317,6 +344,7 @@ footer {
     margin-bottom: 20px; /* Espacement entre les images */
     
 }
+
 
 
 /* Styles pour les écrans plus petits (mobiles) */
