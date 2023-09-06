@@ -345,6 +345,46 @@ footer {
     
 }
 
+/* Ajoutez ces styles pour centrer le texte de la page contact*/
+.contact-container {
+    text-align: center;
+    padding: 1rem;
+}
+
+.contact-link {
+    display: inline-block;
+    background-color: #5a695d;
+    color: #FFF8E9;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.contact-link:hover {
+    background-color: #849c84;
+}
+
+/* Ajoutez ce style pour la card de Kenza */
+.kenza-card {
+    padding: 20px; /* Ajoutez ou ajustez le padding selon vos préférences */
+    background-color: #FFF8E9
+    ; /* Couleur de fond de la card */
+    border-radius: 10px; /* Coins arrondis pour la card */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre légère pour la card */
+}
+
+.kenza-card img {
+    width: 100%; /* Ajustez la largeur de l'image selon vos besoins */
+    max-width: 400px; /* Largeur maximale de l'image */
+    height: auto; /* Ajustement automatique de la hauteur pour conserver les proportions */
+    display: block;
+    margin: 0 auto 20px; /* Centrez l'image horizontalement et ajoutez un espace en bas */
+    border-radius: 5px; /* Coins arrondis pour l'image */
+}
+
 
 
 /* Styles pour les écrans plus petits (mobiles) */
