@@ -53,14 +53,18 @@ nav ul {
 }
 
 img {
-    width: 100%;
+    width: 100%; /* Définissez la largeur maximale de l'image */
+        height: auto; /* Conservez le rapport hauteur/largeur original */
+        object-fit: cover; /* Ajustez l'image pour couvrir tout le conteneur */
+        max-height: 300px;
+    /* width: auto; */
     /* height: auto; */
     /* margin: auto;
     padding: 0; */
-    height: 60%;
+    /* height: 60%;
     display: block;
     margin: 0 auto;
-    max-height: 250px; 
+    max-height: 250px;  */
     /* object-fit: cover; */
     /* border: 0.2rem solid rgb(224, 12, 207); */
 }
